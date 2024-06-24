@@ -12,6 +12,7 @@ const isActive = href === pathname || href === "/" + subpath?.[0];
 
 <a
   href={href}
+  data-astro-prefetch
   class:list={[
     className,
     "inline-block font-medium py-3",
